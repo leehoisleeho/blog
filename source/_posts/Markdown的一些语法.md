@@ -1,0 +1,24 @@
+---
+title: Markdown的一些语法
+date: 2020-09-21 17:27:31
+cover: ./img/markdown.jpg
+tags: markdown
+---
+
+* __字体加粗__
+```markdown
+__内容__
+```
+<!--more-->
+* __插入入图片__
+```markdown
+![图片的描述](图片的地址)
+```
+这样插入的图片，无法控制大小，和位置（默认都是靠左）
+
+
+* __插入控制大小和位置的图片__
+```html
+<div align="center"><img src = "图片地址" width = 50%></div>
+```
+markdown里面居然还可以写HTML，惊了...
