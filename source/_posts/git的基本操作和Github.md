@@ -2,6 +2,7 @@
 title: git的基本操作和Github
 date: 2020-09-21 07:20:43
 tags: 'git'
+toc : true
 ---
 # git的基本操作
 __配置本地的git__
