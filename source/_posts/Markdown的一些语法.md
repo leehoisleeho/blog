@@ -3,6 +3,7 @@ title: Markdown的一些语法
 date: 2020-09-21 17:27:31
 cover: ./img/markdown.jpg
 tags: markdown
+toc: true
 ---
 
 * __字体加粗__
@@ -22,3 +23,14 @@ __内容__
 <div align="center"><img src = "图片地址" width = 50%></div>
 ```
 markdown里面居然还可以写HTML，惊了...
+
+* __给文字加入超链接__
+```markdown
+[文字]( url )
+```
+* __表格__
+```markdown
+|标题1|标题2|标题3|标题4|
+|----|----|----|----|
+|内容1|内容2|内容3|内容4|
+```
