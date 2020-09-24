@@ -29,7 +29,7 @@ toc : true
 <html lang="zh-CN"> //html标签
 <head>
     <meta charset="UTF-8"> 》//文件的字符编码
-    <meta name="viewport" content="width=device-width,inital-scale=1.0">  //防止页面缩放
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  //防止页面缩放
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>  //告诉IE用最新的内核渲染页面
     <title>Document</title>  //网页的标题
 </head>
