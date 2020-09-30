@@ -48,7 +48,7 @@ cover: ./img/csslayout.jpg
 </div>
 ```
 ## __flex布局__
-* Flex是`Flexble Box`的缩写，意为'弹性盒子'，用来为盒模型提供最大的灵活性。
+Flex是`Flexble Box`的缩写，意为'弹性盒子'，用来为盒模型提供最大的灵活性。
 任何一个容器都可以指定为flex布局
 ```css
 .box{
@@ -63,7 +63,7 @@ cover: ./img/csslayout.jpg
 ```
 设置为flex的元素，子元素`float`、`clear`、`vertical-align`属性就会失效。
 
-* 采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
+采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
 
 ### __容器的属性__
 ```css
@@ -92,11 +92,11 @@ align-content // 多行内容，如何排列
 ### __flex-wrap__
 默认情况下，项目都会排在一条线上，`flex-wrap`定义，如果一条线上排不下，是否换行。
  	<div align='center'><img src='./img/3.png'></div>
-	```css
-  	.box{
+```css
+.box{
 	 flex-wrap: nowrap | wrap | wrap-reverse;
-	}
-	```
+}
+```
 * `nowrap` 默认属性，默认情况不管多少元素都是排在一行
 * `wrap` 换行，空间不够就换行
 * `wrap-reverse` 也是换行，不过是反过来的
@@ -123,7 +123,7 @@ justify-content: flex-start | flex-end | center | space-between | space-around|
 `center` 居中
 `space-between` 两端对齐，项目之间的空间都相等
 `space-around` 每个项目两侧间隔都相等。
-
+`space-evenly` 每个项目之间的距离都是相等的.
 ### __align-items__
 `align-items`属性定义项目在垂直方向上如何对齐。
 ```css
@@ -174,6 +174,7 @@ flex-grow:<数字>
 }
 ```
 <div align='center'><img src='./img/8.png'></div>
+
 如果所有项目的`flex-grow`属性都为1，则他们将等分剩余空间。如果一个项目的`flex-grow`属性为2，其他项目都为1，则前者占据的剩余空间将比其他项目多一倍
 
 ### __flex-shrink__
@@ -184,6 +185,7 @@ flex-shrink:<数字>
 }
 ```
 <div align='center'><img src='./img/9.png'></div>
+
 如果所有项目的`flex-shrink`属性都为1，当空间不足时，都将等比例缩小，如果一个项目的`flex-shrink`属性为0，其他项目为1，则空间缩小的时候，前者不缩小。
 
 ### __flex-basis__
