@@ -76,12 +76,10 @@ border:1px solid red;
 ## __overflow溢出__
 * 当内容的宽度和高度大于容器的时候，会溢出容器。可以通过overflow来设置是否显示滚动条。
 ```CSS
-overfow{
-auto // 只有当文字溢出的时候，才会显示，不溢出就不会显示。
-scroll // 不管是否溢出，都显示滚动条。
-hidden // 直接隐藏溢出部分 
-visible //默认设置，会显示溢出部分
-}
+overflow:auto // 只有当文字溢出的时候，才会显示，不溢出就不会显示。
+overflow:scroll // 不管是否溢出，都显示滚动条。
+overflow:hidden // 直接隐藏溢出部分 
+overflow:visible //默认设置，会显示溢出部分
 ```
 
 ## __盒模型__
