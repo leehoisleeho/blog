@@ -83,23 +83,26 @@ align-content // 多行内容，如何排列
 }
 ```
 
-* `row`(默认值)：主轴为水平方向，起点在左端
-* `row-reverse`: 主轴为水平方向，起点在右端
-* `column`:主轴垂直方向，起点在上沿
-* `column-reverse`：主轴为垂直方向，起点在下沿
+`row`(默认值)：主轴为水平方向，起点在左端
+`row-reverse`: 主轴为水平方向，起点在右端
+`column`:主轴垂直方向，起点在上沿
+`column-reverse`：主轴为垂直方向，起点在下沿
 
 
 ### __flex-wrap__
 默认情况下，项目都会排在一条线上，`flex-wrap`定义，如果一条线上排不下，是否换行。
- 	<div align='center'><img src='./img/3.png'></div>
+
+<div align='center'><img src='./img/3.png'></div>
+
 ```css
 .box{
-	 flex-wrap: nowrap | wrap | wrap-reverse;
+flex-wrap: nowrap | wrap | wrap-reverse;
 }
 ```
-* `nowrap` 默认属性，默认情况不管多少元素都是排在一行
-* `wrap` 换行，空间不够就换行
-* `wrap-reverse` 也是换行，不过是反过来的
+
+`nowrap` 默认属性，默认情况不管多少元素都是排在一行
+`wrap` 换行，空间不够就换行
+`wrap-reverse` 也是换行，不过是反过来的
 
 ### __flex-flow__
 `flex-flow`属性是`flex-direction`和`flex-wrap`属性的缩写形式，默认值为`row  nowrap`。

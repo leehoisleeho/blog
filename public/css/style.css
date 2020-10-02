@@ -389,7 +389,7 @@ th:not([align]) {
 }
 html {
   background-color: #f7f7f7;
-  font-size: 14px;
+  font-size: 8px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -11469,4 +11469,9 @@ figure.highlight .section {
   .section {
     padding: 1.5rem 1rem;
   }
+}
+
+.ff6666{
+	color:#ff6666;
+	font-weight:8;
 }
