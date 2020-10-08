@@ -29,7 +29,7 @@ cover: ./img/cssdonghua.jpg
 <div align="center"><img src="./img/changestyle.jpg"></div>
 	
 	1. 全走
-	`div.remove()`会触发当前的小时，其他元素relayout。要走全部过程，重新布局，重新绘制，重新合成。
+	`div.remove()`会删除DOM里面的元素，其他元素relayout。要走全部过程，重新布局，重新绘制，重新合成。
 
 	2. 跳过Layout
 	  改变背景颜色，因为只是改变背景颜色，布局没有发生变化，所以就跳过了布局
@@ -37,7 +37,7 @@ cover: ./img/cssdonghua.jpg
 	3. 跳过layout和paint
 	  改变transform，只需要composite
 
-* __查看更改哪些属性CSS怎么绘制__[csstriggers](https://csstriggers.com/)
+* __查看更改哪些属性,CSS怎么绘制__ [csstriggers](https://csstriggers.com/)
 
 * __chrome里查看绘制过程__
 <div align="center"><img src=./img/viewrender.jpg></div>
@@ -159,7 +159,7 @@ to{
 
 资料参考：饥人谷
 
-（完）
+<div class="ff6666">(完)</div>
 
 
 
