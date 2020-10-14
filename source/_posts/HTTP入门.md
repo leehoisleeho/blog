@@ -72,6 +72,7 @@ WWW是李爵士在1990年左右发明的，他由三部分组成，分别是`HTM
 Host:访问主机的域名或者/IP 
 Accept:text/html   我接受的接受
 Content-type:请求体的格式
+User-Agent: 用户用什么方式发送的请求
 回车
 请求体
 ```
