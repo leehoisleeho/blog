@@ -23,7 +23,7 @@ WWW是李爵士在1990年左右发明的，他由三部分组成，分别是`HTM
 
 <div align="center"><img src="./img/tcpip.png"></div>
 
- <div align="center" class="ff3333"> 越靠下离物理硬件越近，越靠上离用户就越近。</div>
+<div align="center" style="font-weight:600;color:#ff3333"> 越靠下离物理硬件越近，越靠上离用户就越近。</div>
 
  * `物理层`:通过光电信号，传输数据
  * `数据链路层`:通过ARP协议获取访问主机的MAC地址。
