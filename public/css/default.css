@@ -3,6 +3,11 @@
  font-weight:600;
 }
 
+.ea4335{
+	color:#EA4335;
+	font-weight:600;
+}
+
 @-moz-keyframes spinAround {
   from {
     transform: rotate(0deg);
