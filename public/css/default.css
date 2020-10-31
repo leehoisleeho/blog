@@ -543,6 +543,7 @@ table th {
 .is-size-6,
 article.media .title {
   font-size: 1rem !important;
+	font-weight: 600;
 }
 .is-size-7,
 article.media .date,
@@ -1091,6 +1092,7 @@ a.has-text-grey-lightest:focus {
 }
 .is-block {
   display: block !important;
+	font-weight:600;
 }
 @media screen and (max-width: 768px) {
   .is-block-mobile {
