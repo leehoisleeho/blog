@@ -6,7 +6,7 @@ toc: true
 cover: ./img/javascript.png
 ---
 ## __对象__
-对象就是椅子“键值对”的集合，是一种无序的符合数据集合。是JS里唯一一种复杂类型
+对象就是一组“键值对”的集合，是一种无序的符合数据集合。是JS里唯一一种复杂类型
 <!--more-->
 ## __写法__
 ```javascript
@@ -153,7 +153,7 @@ obj.hasOwnproperty("toString")
 ```javascript
 obj = {name:"frank",age:18}
 for(let key in obj){
-console.log(i+":"+obj[i])
+console.log(i+":"+obj[key])
 }
 //name:frank
   age:18
