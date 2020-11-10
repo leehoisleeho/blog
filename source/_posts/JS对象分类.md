@@ -80,7 +80,7 @@ __call()__
 函数名.call(对象,参数1,参数2...)
 接受一个对象，和函数的参数
 
-```
+```javascript
 obj1 = {name:"leeho"}
 obj2 = {name:"frank"}
 funcition sayHi(age){
