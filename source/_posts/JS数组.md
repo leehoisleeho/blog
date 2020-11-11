@@ -155,6 +155,7 @@ arr.sort(function(a,b){
 3. `reduce()` n变1 
 三个方法可以通过下图理解
 <div align="center"><img src="./img/img1.png"></div>
+
 `map()`和`fliter()`都很好理解
 最难理解的是`reduce()`
 `reduce()`里面接受两个参数，第一个参数为一个函数，第二个参数是原始值
